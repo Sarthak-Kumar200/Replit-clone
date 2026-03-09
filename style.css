@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 242, 242);
+    height: 1000px;
+}
+nav{
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between; /* Pushes Logo to left, UL group to right */
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.nav-links {
+    display: flex; /* Makes the buttons sit in a row */
+    gap: 30px;      /* This controls the space BETWEEN the buttons */
+    list-style: none;
+    position: relative;
+    left: -820px;
+    top: -2px;
+    font-size: x-small;
+    font-weight: 10;
+    color: rgb(99, 99, 99);
+}
+
+.replit{
+    position: relative;
+    left: -395px;
+    top: -3px;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(65, 65, 65);
+}
+
+.logo{
+    position: relative;
+    left: 40px;
+}
+.nav2 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    position: relative;
+    top: -42px;
+    left: 850px;
+    font-weight: 10;
+    font-size: x-small;
+    color: rgb(99, 99, 99);;
+}
+.createaccountbutton{
+    background-color: #F26207;
+    color: white;
+    font-size: x-small;
+    height: 23px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: -4px;
+}
+.What_will_you_build{
+    padding: 0 550px;
+    font-size: 22px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    position: relative;
+    top: 40px;
+}
+.Turnideasintoappsinminutes—nocodingneeded{
+    position: absolute;
+    right: 515px;
+    top: 160px;
+    font-weight: 10;
+    color: rgb(70, 69, 69);
+    font-size: x-small;
+}
+.inputbox{
+    position: relative;
+    left: 445px;
+    top: 100px;
+    height: 150px;
+    width: 430px;
+    border-radius: 4px;
+    border: none;
+    resize: none;
+    font-size: x-small;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.startbutton{
+    position: relative;
+    left: 375px;
+    top: 90px;
+    width: 60px;
+    height: 20px;
+    z-index: 10;
+   font-size: x-small;
+   border-radius: 3px;
+   border: none;
+   font-weight: lighter;
+}
+.appbox{
+    height: 23px;
+    width: 205px;
+    border: none;
+    position: relative;
+    left: 456px;
+    position: relative;
+    background-color: white;
+    top: -79px;
+    z-index: 0;
+    border-bottom: none;
+    border-radius: 2px;
+}
+
+.paraapp{
+    color:rgb(0, 0, 0);
+    font-size: x-small;
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.design{
+    height: 23px;
+    width: 205px;
+    border-radius: 2px;
+    border: 0.1px solid rgb(145, 145, 145);
+    position: relative;
+    top: -101px;
+    left: 659px;
+    background-color: rgb(241, 241, 241);
+    z-index: -1;
+}
+
+.paradesign{
+    font-size: x-small;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+.plusicon{
+    position: relative;
+    left: 455px;
+    top: 20px;
+    z-index: 100;
+}
+.startwithanidea{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 80px;
+    margin-left: 200px;
+    
+}
+.ideabuttons{
+    display: flex;
+    position: relative;
+    gap: 22px;
+    margin-left: 200px;
+    top: 100px;
+    font-size: x-small;
+    height: 25px;
+    width: 500px;
+}
+.aiapp{
+    color: rgb(104, 104, 104);
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 50px;
+}
+.websitebtn{
+    color: rgb(104, 104, 104);
+    background-color: #e7e6e6;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    font-size: x-small;
+}
+.buisnessapp{
+    color: rgb(104, 104, 104);
+    background-color: #e7e6e6;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    font-size: x-small;
+}
+.personalsoftware{
+    color: rgb(104, 104, 104);
+    background-color: #e7e6e6;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    font-size: x-small;
+}
+.box1{
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 200px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: none;
+
+}
+.aichat{
+    position: relative;
+    margin-left: 200px;
+    top: -170px;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+    color: rgb(41, 41, 41);
+
+}
+.box1 img{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
+.box2{
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 560px;
+    top: -23px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: none;
+}
+.box2 img{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
+.brainstromingbuddy{
+    position: relative;
+    margin-left: 560px;
+    top: -190px;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+    color: rgb(37, 37, 37);
+}
+.box3{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 900px;
+    top: -175px;
+}
+.box3 img{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
+.reciptgenerator{
+    position: relative;
+    margin-left: 900px;
+    top: -211px;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+    color: rgb(37, 37, 37);
+}
+.aiapps1{
+    margin-left: 440px;
+    position: relative;
+    top: -233px;
+    height: 20px;
+    width: 60px;
+    font-size: x-small;
+    border: none;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+}
+.aiapps2{
+    margin-left: 640px;
+    position: relative;
+    top: -230px;
+    font-size: x-small;
+    height: 20px;
+    width: 60px;
+    border: none;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+}
+.aiapps3{
+    margin-left: 800px;
+    position: relative;
+    top: -252px;
+    font-size: x-small;
+    height: 20px;
+    width: 60px;
+    border: none;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+}
